@@ -21,7 +21,7 @@ h1 {
 
 }
 h2 { 
-    font-size: 25px;
+    font-size: 35px;
 
 }
 
@@ -36,19 +36,36 @@ h2 {
     align-items: center;
     margin-left: 30%;
 }
-.continent-bar {
-    background: white;
-    border-color: black;
-    padding: 8px 16px;
-    font-size: 16px;
-    color: black;
-    border-radius: 16px;
-    width: 200px;
-  }
   
+  .country-list{
+      list-style: none;
+      justify-content: space-evenly;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      padding-top: 20px;
+  }
+
+  .continent-name {
+      font-size: 50px;
+      padding: 50px;
+  }
   .card-img {
-      width: 249px;
-      height: 100px;
+      width: 310px;
+      height: 226px;
       background-size: cover;
       background-repeat: no-repeat;
+      margin: 20px 10px 0 10px;
+      border: 2px solid black;
+      border-radius: 3px;
   }
+
+  .country-info {
+      font-size: 20px;
+      list-style: none;
+
+  }
+
+  /* TABLET */
+@media (min-width: 667px) and (max-width: 1024px) {
+}
