@@ -39,7 +39,7 @@ h2 {
     align-items: center;
     margin-left: 30%;
 }
-  
+   
   .country-list{
       list-style: none;
       justify-content: space-evenly;
@@ -70,5 +70,9 @@ h2 {
   }
 
   /* TABLET */
-@media (min-width: 667px) and (max-width: 1024px) {
+/*@media (min-width: 667px) and (max-width: 1024px) {
+}*/
+
+@media (min-width:1025px) {
+
 }
