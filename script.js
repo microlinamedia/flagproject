@@ -7,7 +7,7 @@ const getCountriesFromRegion = region => {
 	  };
 
 const showCountriesFromRegion = json => {
-	console.log(json)
+	//console.log(json)
  document.getElementById("continentName").innerHTML = json[0].region
 	
 	json.forEach(country => {
@@ -26,5 +26,10 @@ const showCountriesFromRegion = json => {
 	  });
 	
 } 
-getCountriesFromRegion('Africa')
+//getCountriesFromRegion('Africa')
 
+document.getElementById("continents")
+	.addEventListener("change", function(evt){
+console.log(evt.target.value) 
+  getCountriesFromRegion(evt.target.value)
+		})
